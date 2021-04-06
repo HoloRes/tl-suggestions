@@ -110,12 +110,9 @@ export default function Home() {
 		}).then(() => {
 			setAlertSeverity('success');
 			setAlertMessage('Suggestion submitted successfully');
-			setAlertAction(<>
-				<Button color='secondary' size='small' onClick={clearFields}>
-					Submit another clip
-				</Button>
-			</>);
+			setAlertAction(null);
 			setAlertOpen(true);
+			clearFields();
 		}).catch(() => {
 			setAlertSeverity('error');
 			setAlertMessage('Submission failed');
