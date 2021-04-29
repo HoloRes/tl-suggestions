@@ -46,7 +46,7 @@ export default function Home() {
 
 	const [currentClip, setCurrentClip] = useState([]);
 
-	const [videoUrl, setVideoUrl] = useState('https://www.youtube.com/watch?v=vQHVGXdcqEQ');
+	const [videoUrl, setVideoUrl] = useState('https://www.youtube.com/watch?v=IKKar5SS29E');
 
 	const [inVidClippingAvailable, setInVidClippingAvailable] = useState(false);
 	const [addClipAvailable, setAddClipAvailable] = useState(false);
