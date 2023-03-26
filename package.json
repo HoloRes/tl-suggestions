@@ -18,7 +18,7 @@
     "react-player": "2.9.0"
   },
   "devDependencies": {
-    "@ijsto/eslint-config": "3.0.1",
+    "@ijsto/eslint-config": "4.5.3",
     "babel-eslint": "10.1.0",
     "eslint": "7.25.0",
     "eslint-config-airbnb": "18.2.1",
